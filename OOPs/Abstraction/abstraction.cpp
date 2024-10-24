@@ -13,6 +13,12 @@
         If I define pure virtual function inside a class that class becomes interface.
         These classes cannot be instantiated.
         It has come from the idea of abstraction
+
+    Design Strategy
+        Abstraction divides code into 2 categories. interfaces and implementations
+        So while creating your components, keep the interface separate from implementation
+        If implementation changes, the interface remains the same.
+
 */
 
 #include <iostream>
@@ -20,7 +26,7 @@
 
 using namespace std;
 
-void birdDoesSomething(Bird bird)
+void birdDoesSomething(Bird *&bird)
 {
     bird->eat();
 }

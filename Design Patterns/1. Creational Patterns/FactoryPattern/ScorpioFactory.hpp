@@ -15,15 +15,12 @@ public:
         {
         case 'N':
             return new ScorpioN();
-            break;
 
         case 'C':
             return new ScorpioClassic();
-            break;
 
         default:
             return new Scorpio();
-            break;
         }
     }
 };

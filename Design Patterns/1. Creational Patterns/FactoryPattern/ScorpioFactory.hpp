@@ -23,6 +23,7 @@ public:
             return new Scorpio();
         }
     }
+    // simple factory method.
 };
 
 #endif

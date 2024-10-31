@@ -3,13 +3,22 @@
 
 #include <iostream>
 #include "Scorpio.hpp"
+#include "models/ScorpioClassicEngine.hpp"
 using namespace std;
 
 class ScorpioClassic : public Scorpio
 {
+
+    IEngine *engine;
+    void makeCar()
+    {
+        cout << "I am making engine for scorpio classic" << endl;
+        this->engine = new ScorpioClassicEngine();
+    }
     void driveCar()
     {
-        cout << "I am inside classic scorpio";
+        this->makeCar();
+        cout << "I am inside classic scorpio" << endl;
     }
 };
 

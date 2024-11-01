@@ -1,7 +1,7 @@
 #if !defined(SCORPIO_H)
 #define SCORPIO_H
 #include <iostream>
-#include "models/ScorpioEngine.hpp"
+#include "models/EngineModel/ScorpioEngine.hpp"
 using namespace std;
 
 class Scorpio

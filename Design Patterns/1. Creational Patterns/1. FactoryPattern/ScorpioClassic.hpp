@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include "Scorpio.hpp"
-#include "models/ScorpioClassicEngine.hpp"
+#include "models/EngineModel/ScorpioClassicEngine.hpp"
 using namespace std;
 
 class ScorpioClassic : public Scorpio

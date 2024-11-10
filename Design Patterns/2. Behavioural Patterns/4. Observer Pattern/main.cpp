@@ -86,6 +86,9 @@ int main()
     ATCTower *tower = new ATCTower();
     IAircraft *boing = new Boing(tower);
 
+    // sbse pehele tower hona chahiye. jaise ki ek youtube channel. tabhi to observers usko subscribe kar payenge
+    // phir observer ko subscribe krne ke liye wo subject pass bhi krna padega
+
     boing->fly();
     boing->land();
 }
